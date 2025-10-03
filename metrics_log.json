@@ -1,0 +1,343 @@
+{
+  "rag": [
+    {
+      "timestamp": "2025-10-03T13:54:05.407572",
+      "query": "Summarize AI risks for a meeting",
+      "ragas_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.876226137556459,
+        "context_precision": 1.0,
+        "context_recall": 0.6666666666666666,
+        "ragas_score": 0.8857232010557814
+      },
+      "num_retrieved_docs": 4,
+      "context_length": 4329,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T13:54:54.977061",
+      "query": "Give me an AI policy regarding the use of Generative AI to students",
+      "ragas_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.955423522594033,
+        "context_precision": 1.0,
+        "context_recall": 0.8333333333333334,
+        "ragas_score": 0.9471892139818416
+      },
+      "num_retrieved_docs": 4,
+      "context_length": 4287,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T13:59:42.826759",
+      "query": "What school has the best AI Policy in the Philippines?",
+      "ragas_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.0,
+        "context_precision": 1.0,
+        "context_recall": 0.6666666666666666,
+        "ragas_score": 0.6666666666666666
+      },
+      "num_retrieved_docs": 4,
+      "context_length": 3879,
+      "interpretation": {
+        "overall_quality": "Good",
+        "strengths": [
+          "High faithfulness to context",
+          "High context precision"
+        ],
+        "weaknesses": [
+          "Low answer relevancy"
+        ],
+        "recommendations": [
+          "Improve answer relevancy to the query"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:01:34.334975",
+      "query": "If I were to make an AI Policy regarding the use of Generative AI, which school is the best to get insights?",
+      "ragas_metrics": {
+        "faithfulness": 0.8571428571428571,
+        "answer_relevancy": 0.9022097211904782,
+        "context_precision": 1.0,
+        "context_recall": 0.65,
+        "ragas_score": 0.8523381445833338
+      },
+      "num_retrieved_docs": 4,
+      "context_length": 3723,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:47:09.369208",
+      "query": "Give me an AI policy regarding the use of Generative AI to students",
+      "ragas_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.9531343009052798,
+        "context_precision": 1.0,
+        "context_recall": 0.8333333333333334,
+        "ragas_score": 0.9466169085596533
+      },
+      "num_retrieved_docs": 20,
+      "context_length": 21415,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:47:45.421024",
+      "query": "If I were to make an AI Policy regarding the use of Generative AI, which school is the best to get insights?",
+      "ragas_metrics": {
+        "faithfulness": 1.0,
+        "answer_relevancy": 0.8809933598132093,
+        "context_precision": 1.0,
+        "context_recall": 0.75,
+        "ragas_score": 0.9077483399533023
+      },
+      "num_retrieved_docs": 20,
+      "context_length": 20863,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    }
+  ],
+  "policy": [
+    {
+      "timestamp": "2025-10-03T14:07:49.194279",
+      "target_country": "Philippines",
+      "ragas_metrics": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8378857678190128,
+        "context_precision": 1.0,
+        "context_recall": 0.8571428571428571,
+        "ragas_score": 0.6737571562404675
+      },
+      "num_retrieved_sources": 5,
+      "policy_length": 4313,
+      "interpretation": {
+        "overall_quality": "Good",
+        "strengths": [
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [
+          "Low faithfulness to context"
+        ],
+        "recommendations": [
+          "Improve answer faithfulness to retrieved context"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:26:15.945092",
+      "target_country": "USA",
+      "ragas_metrics": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8486911365174784,
+        "context_precision": 1.0,
+        "context_recall": 0.7142857142857143,
+        "ragas_score": 0.6407442127007982
+      },
+      "num_retrieved_sources": 5,
+      "policy_length": 4180,
+      "interpretation": {
+        "overall_quality": "Good",
+        "strengths": [
+          "High answer relevancy",
+          "High context precision"
+        ],
+        "weaknesses": [
+          "Low faithfulness to context"
+        ],
+        "recommendations": [
+          "Improve answer faithfulness to retrieved context"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:33:52.009903",
+      "target_country": "USA",
+      "ragas_metrics": {
+        "faithfulness": 0.8076923076923077,
+        "answer_relevancy": 0.8460038946748177,
+        "context_precision": 1.0,
+        "context_recall": 0.7142857142857143,
+        "ragas_score": 0.8419954791632099
+      },
+      "num_retrieved_sources": 5,
+      "policy_length": 4046,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:36:50.676823",
+      "target_country": "Philippines",
+      "ragas_metrics": {
+        "faithfulness": 0.0,
+        "answer_relevancy": 0.8390717709206695,
+        "context_precision": 1.0,
+        "context_recall": 0.8571428571428571,
+        "ragas_score": 0.6740536570158817
+      },
+      "num_retrieved_sources": 5,
+      "policy_length": 5071,
+      "interpretation": {
+        "overall_quality": "Good",
+        "strengths": [
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [
+          "Low faithfulness to context"
+        ],
+        "recommendations": [
+          "Improve answer faithfulness to retrieved context"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:39:19.991630",
+      "target_country": "Philippines",
+      "ragas_metrics": {
+        "faithfulness": 0.4473684210526316,
+        "answer_relevancy": 0.8169887015555273,
+        "context_precision": 1.0,
+        "context_recall": 0.8571428571428571,
+        "ragas_score": 0.780374994937754
+      },
+      "num_retrieved_sources": 5,
+      "policy_length": 4285,
+      "interpretation": {
+        "overall_quality": "Good",
+        "strengths": [
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [
+          "Low faithfulness to context"
+        ],
+        "recommendations": [
+          "Improve answer faithfulness to retrieved context"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:43:02.715215",
+      "target_country": "Philippines",
+      "ragas_metrics": {
+        "faithfulness": 0.9285714285714286,
+        "answer_relevancy": 0.8312612053594436,
+        "context_precision": 1.0,
+        "context_recall": 0.8571428571428571,
+        "ragas_score": 0.9042438727684323
+      },
+      "num_retrieved_sources": 20,
+      "policy_length": 5162,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    },
+    {
+      "timestamp": "2025-10-03T14:45:06.258758",
+      "target_country": "Philippines",
+      "ragas_metrics": {
+        "faithfulness": 0.9302325581395349,
+        "answer_relevancy": 0.8390842751297924,
+        "context_precision": 1.0,
+        "context_recall": 0.8571428571428571,
+        "ragas_score": 0.9066149226030461
+      },
+      "num_retrieved_sources": 20,
+      "policy_length": 5914,
+      "interpretation": {
+        "overall_quality": "Excellent",
+        "strengths": [
+          "High faithfulness to context",
+          "High answer relevancy",
+          "High context precision",
+          "High context recall"
+        ],
+        "weaknesses": [],
+        "recommendations": [
+          "System performance is good - continue current approach"
+        ]
+      }
+    }
+  ]
+}

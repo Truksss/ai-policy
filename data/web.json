@@ -1,0 +1,116 @@
+[
+    {
+        "url": "https://www.ox.ac.uk/research/support-researchers/research-practice/policy-generative-ai-research",
+        "school": "Oxforf University",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.imperial.ac.uk/admin-services/library/learning-support/generative-ai-guidance/",
+        "school": "Imperial College London",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.feu.edu.ph/student-guidelines-on-the-use-of-general-artificial-intelligence/",
+        "school": "Far Eastern University",
+        "country": "Philippines",
+        "level": "University"
+    },
+    {
+        "url": "https://www.oph.fi/fi/teemat-ja-kehittaminen/velvoitteet-ja-suositukset",
+        "school": "Finland Board of Education",
+        "country": "Europe",
+        "level": "Highschool"
+    },
+    {
+        "url": "https://tlhub.stanford.edu/docs/course-policies-on-generative-ai-use/",
+        "school": "Stanford University",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://ist.mit.edu/ai-guidance",
+        "school": "Massachusetts Institute of Technology (MIT)",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://registrar.gse.harvard.edu/learning/policies-forms/ai-policy",
+        "school": "Harvard University",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://blendedlearning.cam.ac.uk/artificial-intelligence-and-education/using-generative-ai",
+        "school": "University of Cambridge",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.hss.caltech.edu/hss-policies/hss-policy-on-generative-ai",
+        "school": "California Institute of Technology",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://oercs.berkeley.edu/appropriate-use-generative-ai-tools",
+        "school": "University of California, Berkeley",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://provost.yale.edu/news/guidelines-use-generative-ai-tools",
+        "school": "Yale University",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://www.brown.edu/policies/responsible-use-of-ai",
+        "school": "Brown University",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://engineering.jhu.edu/cmts/chatgpt/student-use-of-generative-ai/",
+        "school": "Johns Hopkins University",
+        "country": "USA",
+        "level": "University"
+    },
+    {
+        "url": "https://information-services.ed.ac.uk/computing/communication-and-collaboration/elm/generative-ai-guidance-for-students/using-generative",
+        "school": "University of Edinburgh",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.kuleuven.be/english/genai/general-guidelines",
+        "school": "KU Leuven",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.bristol.ac.uk/bilt/sharing-practice/guides/guidance-on-ai/",
+        "school": "University of Bristol",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.uu.se/en/students/department/biology-education-centre/plagiarism-and-cheating/ai-policy",
+        "school": "University of Uppsala",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://intra.kth.se/en/utbildning/systemstod/generativ-ai/riktlinjer-1.1405092",
+        "school": "KTH Royal Institute of Technology",
+        "country": "Europe",
+        "level": "University"
+    },
+    {
+        "url": "https://www.ntu.edu.sg/education/inspire/teaching-learning-assessment-with-genai/assessment/policies-guidelines",
+        "school": "Nanyang Technological University",
+        "country": "Singapore",
+        "level": "University"
+    }
+]
