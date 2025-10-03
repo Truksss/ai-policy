@@ -11,14 +11,10 @@ from metrics_api import router as metrics_router
 
 app = FastAPI(title="AI Policy Backend", version="1.0.0")
 
-# Build allow_origins from an environment variable (comma-separated) if provided,
-# otherwise fall back to a sane default list. Strip any trailing slashes to avoid
-# mismatches (FastAPI/CORSMiddleware expects exact origin strings).
 default_origins = ["http://localhost:3000", "https://ai-policy.onrender.com", "https://policy-jylh.vercel.app"]
 env_origins = os.getenv("ALLOWED_ORIGINS")
 if env_origins:
     parsed = [o.strip().rstrip('/') for o in env_origins.split(',') if o.strip()]
-    # Keep env-provided origins first, then defaults for local/dev convenience
     allow_origins = parsed + [o for o in default_origins if o not in parsed]
 else:
     allow_origins = [o.rstrip('/') for o in default_origins]
