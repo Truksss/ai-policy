@@ -12,7 +12,11 @@ app = FastAPI(title="AI Policy Backend", version="1.0.0")
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"], 
+    allow_origins=[
+    "http://localhost:3000", 
+    "https://ai-policy.onrender.com", 
+    "https://policy-jylh.vercel.app/"
+    ], 
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
